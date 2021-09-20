@@ -2,6 +2,7 @@ let winEl = document.querySelector(".win");
 let loseEl = document.querySelector(".lose");
 let timeCountEl = document.querySelector(".timer-count");
 let startButtonEl = document.querySelector(".start-button");
+let resetButtonEl = document.querySelector(".reset-button");
 let wordEl = document.querySelector(".word-blanks");
 
 let secondsLeft = 10;
@@ -167,6 +168,12 @@ startButtonEl.addEventListener("click", function(event) {
     startGame();
     pickWord();
     setTime();
+
+});
+
+resetButtonEl.addEventListener("click", function(event) {
+    init();
+    displayScore ();
 
 });
 
