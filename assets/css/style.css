@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+
+  header {
+      background-color: darkblue;
+      text-align: center;
+      color:white;
+      padding: 30px;
+  }
+
+  .large-font {
+      font-size: 36px;
+
+  }
+
+  .start-button {
+    padding:20px;
+    background-color:orange;
+    font-size: 24px;
+    border-radius: 10px;
+    width:100px;
+  }
+
+  .card {
+     background-color: rgb(177, 162, 134);
+     margin: 50px;
+     border: solid 3px white;
+     display: inline-block;
+  }
+
+  .word-guess {
+      width: 30%
+  }
+
+  .results {
+      width:30%;
+  }
